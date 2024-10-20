@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+   margin-bottom: 50px;
+}
+.sub-container{
+    background-color: aqua;
+}
+.sub-container-2{
+    background-color: red;
+}
+ 
+
+
+
+
+@media screen and (max-width: 576px) {
+.container{
+    flex-direction: column;
+    gap: 20px;
+}
+
+}
+@media screen  and (min-width: 576px) and (max-width: 992px) {
+.container{
+    flex-direction: calc(2);
+}
+}
